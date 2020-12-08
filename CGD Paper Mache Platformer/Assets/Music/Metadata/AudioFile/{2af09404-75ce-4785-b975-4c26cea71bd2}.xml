@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{2af09404-75ce-4785-b975-4c26cea71bd2}">
+		<property name="assetPath">
+			<value>HOUSE PAPER Wrap Tear Short.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.33471655328798183</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b275845-91e1-403a-9996-83a2aee3810e}</destination>
+		</relationship>
+	</object>
+</objects>

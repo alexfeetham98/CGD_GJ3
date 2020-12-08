@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{afc518a4-9625-4b98-8bcc-5663c63bee65}">
+		<property name="assetPath">
+			<value>ES_Rolling Down the Hill - Clarence Reed.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>102.5505625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b275845-91e1-403a-9996-83a2aee3810e}</destination>
+		</relationship>
+	</object>
+</objects>

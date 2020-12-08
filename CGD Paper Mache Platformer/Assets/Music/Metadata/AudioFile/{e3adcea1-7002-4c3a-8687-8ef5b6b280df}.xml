@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{e3adcea1-7002-4c3a-8687-8ef5b6b280df}">
+		<property name="assetPath">
+			<value>FOLEY FOOTSTEPS TENNIS SHOES WET PAPER 01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.49365079365079367</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b275845-91e1-403a-9996-83a2aee3810e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{cb0488dd-4ce0-44f9-a701-275bfbd16cc4}">
+		<property name="assetPath">
+			<value>Parched_drawing_crispy_paper_shoji_chalk_stroke_short_V.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.47179166666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b275845-91e1-403a-9996-83a2aee3810e}</destination>
+		</relationship>
+	</object>
+</objects>
