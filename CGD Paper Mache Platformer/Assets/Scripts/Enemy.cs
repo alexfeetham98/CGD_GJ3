@@ -81,12 +81,11 @@ public class Enemy : MonoBehaviour
        
        splashParticles.Play();
        shootTimer += Time.deltaTime;
-        
-        if(shootTimer >= 0.3f)
+
+        if (shootTimer >= 0.3f)
         {
             splashCollider.enabled = true;
         }
-
     }
 
     void Patrolling()
@@ -108,7 +107,6 @@ public class Enemy : MonoBehaviour
         if (PshootTimer <= OnOffTime)
         {
             splashParticles.Play();
-
             if (PshootTimer >= 0.3f)
             {
                 splashCollider.enabled = true;
