@@ -81,10 +81,10 @@ public class Enemy : MonoBehaviour
        
        splashParticles.Play();
        shootTimer += Time.deltaTime;
-
         if (shootTimer >= 0.3f)
         {
             splashCollider.enabled = true;
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Water");
         }
     }
 
@@ -119,7 +119,7 @@ public class Enemy : MonoBehaviour
 
             if(PshootTimer >= 4f)
             {
-                PshootTimer = 0f;
+                PshootTimer = 0f; 
             }
         }
     }
