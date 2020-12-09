@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
     public void Play()
     {
         // load level
-        SceneManager.LoadScene("Level");
+        SceneManager.LoadScene("CompletedLevel");
     }
 
     public void Quit()
