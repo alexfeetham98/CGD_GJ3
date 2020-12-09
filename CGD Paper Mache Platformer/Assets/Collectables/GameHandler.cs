@@ -21,9 +21,4 @@ public class GameHandler : MonoBehaviour
     {
         collectableText.text = collectable.ToString("0");
     }
-
-
-
-
-
 }

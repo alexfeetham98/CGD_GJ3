@@ -10,6 +10,7 @@ public class KillEnemy : MonoBehaviour
     private float enemyHeight = 0;
     public Movement playerScript;
     float KillTimer = 0f;
+    public Health health;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +50,7 @@ public class KillEnemy : MonoBehaviour
             else
             {
                 Debug.Log("I Die");
+                health.lives--;
             }
         }
         if (hit.gameObject.tag == "Melee")
@@ -68,6 +70,7 @@ public class KillEnemy : MonoBehaviour
             else
             {
                 Debug.Log("I Die");
+                health.lives--;
             }
         }
         if (hit.gameObject.tag == "Ranged")
@@ -87,6 +90,7 @@ public class KillEnemy : MonoBehaviour
             else
             {
                 Debug.Log("I Die");
+                health.lives --;
             }
         }
     }
