@@ -87,6 +87,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 101840
+--- !u!114 &-6478405106101228263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PaperSteps
+  m_EditorClassIdentifier: 
+  Path: event:/PaperSteps
+  guid: ac3ff9c1d7bb6c4896ba3cab505d2821
+  Banks:
+  - {fileID: 5599884062436249671}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1209
 --- !u!114 &-5361547442663087776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +179,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2930921914244180096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  guid: d0bb3f25b9e9124c9cfd40b5c7a09687
+  Banks:
+  - {fileID: 5599884062436249671}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-2461911866159186647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background song
+  m_EditorClassIdentifier: 
+  Path: event:/Background song
+  guid: 83db6761d338cb479fac57751fdd3c63
+  Banks:
+  - {fileID: 5599884062436249671}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 120000
 --- !u!114 &-2329879543760526128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,20 +307,20 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6073911988162168897}
-  - {fileID: 1863989717115354246}
+  - {fileID: 6168916914161315683}
+  - {fileID: 5599884062436249671}
   EditorEvents:
-  - {fileID: -7224833692297032719}
-  - {fileID: -2329879543760526128}
-  - {fileID: -4619312787572832970}
-  - {fileID: -5361547442663087776}
-  - {fileID: 2890465688833762003}
+  - {fileID: 6523802637993551016}
+  - {fileID: -2461911866159186647}
+  - {fileID: -6478405106101228263}
+  - {fileID: 4312949805542034312}
+  - {fileID: -2930921914244180096}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 1863989717115354246}
+  - {fileID: 5599884062436249671}
   StringsBanks:
-  - {fileID: 6073911988162168897}
-  stringsBankWriteTime: 637430510154169932
+  - {fileID: 6168916914161315683}
+  stringsBankWriteTime: 637430535818252744
   cacheVersion: 5
 --- !u!114 &1527377307320639281
 MonoBehaviour:
@@ -290,7 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Music/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637430510154140032
+  lastModified: 637430535818232908
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -360,6 +429,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 928
   Exists: 1
+--- !u!114 &4312949805542034312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Paper
+  m_EditorClassIdentifier: 
+  Path: event:/Paper
+  guid: b9b24584cb72c7498338e7905bfee570
+  Banks:
+  - {fileID: 5599884062436249671}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &5026708322402823570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,6 +470,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &5599884062436249671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Music/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637430535818232908
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6073911988162168897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,12 +502,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Music/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637430510154169932
+  lastModified: 637430535818252744
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 928
   Exists: 1
+--- !u!114 &6168916914161315683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Music/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637430535818252744
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 928
+  Exists: 1
+--- !u!114 &6523802637993551016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Paper Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Paper Ambience
+  guid: 6d861b887d6be144ac791cf49bf2c5d4
+  Banks:
+  - {fileID: 5599884062436249671}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 101840
 --- !u!114 &6903223472189068823
 MonoBehaviour:
   m_ObjectHideFlags: 0

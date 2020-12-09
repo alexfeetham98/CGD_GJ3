@@ -68,11 +68,11 @@ public class PlayerFollow : MonoBehaviour
         }
 
 
-        horizontalRotation();
+        //horizontalRotation();
 
-        compensateForWalls();
+        //compensateForWalls();
 
-        resetToBehind();
+        //resetToBehind();
     }
 
     void compensateForWalls()
