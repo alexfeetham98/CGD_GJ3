@@ -19,11 +19,6 @@ public class GameHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //collectableText.text = collectable.ToString("0");
+        collectableText.text = collectable.ToString("0");
     }
-
-
-
-
-
 }

@@ -320,7 +320,7 @@ MonoBehaviour:
   - {fileID: 5599884062436249671}
   StringsBanks:
   - {fileID: 6168916914161315683}
-  stringsBankWriteTime: 637430535818252744
+  stringsBankWriteTime: 637430417129654889
   cacheVersion: 5
 --- !u!114 &1527377307320639281
 MonoBehaviour:
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Music/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637430535818232908
+  lastModified: 637430417129599866
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Music/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637430535818252744
+  lastModified: 637430417129654889
   LoadResult: 0
   FileSizes:
   - Name: Desktop
